@@ -29,10 +29,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-//import androidx.compose.material.Text
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
-
 import androidx.navigation.fragment.findNavController
 import com.hotellina.SouvenirScout.databinding.FragmentPolicyFragmentBinding
 import kotlinx.coroutines.Dispatchers
@@ -53,9 +51,7 @@ class policy_fragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?
     ): View? {
-        //binding = FragmentPolicyFragmentBinding.inflate(inflater, container, false)
         val view = ComposeView(requireContext())
-
         view.apply{
             setContent {
                 layout()
@@ -105,14 +101,12 @@ class policy_fragment : Fragment() {
     @Composable
     fun buttons(){
         Row(modifier = Modifier.padding(bottom = 20.dp)
-
         ){
             Button(onClick = { deny()},
                     ) {
                 Text("No")
                 Image(painter = painterResource(id =  R.drawable.baseline_clear_24),
                                                 contentDescription = "I do not agree and do NOT login")
-
             }
             Spacer(modifier = Modifier.width(70.dp))
             Button(onClick = { agree() },
@@ -122,8 +116,6 @@ class policy_fragment : Fragment() {
                                                 contentDescription = "Agree and login")
             }
         }
-
-
      }
 
     private fun agree() {
@@ -148,10 +140,7 @@ class policy_fragment : Fragment() {
 
     suspend fun save_preference(agreed:Boolean) {
         requireContext().dataStore.edit { settings ->
-//            val currentCounterValue = settings[policy_agreed] ?: false
             settings[policy_agreed] = agreed
         }
     }
-
-
 }
