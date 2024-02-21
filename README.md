@@ -1,4 +1,4 @@
-# SouvenirScoutJetPackCompose Re-Code Examples, from XML to JetPack
+# Re-Code Examples, from XML to JetPack
 This is an example of how I coded the old Policy fragment from xml to JetPack Compose.
 
 A snippet of the old fragment is here
