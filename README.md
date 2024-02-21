@@ -1,4 +1,4 @@
-# Re-Code Examples, from XML to JetPack
+# Re-Code examples, from XML to JetPack
 This is an example of how I coded the old Policy fragment from xml to JetPack Compose.
 
 The final output video showing the JetPack Policy coded snippet is at: 
