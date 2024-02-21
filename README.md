@@ -15,3 +15,9 @@ The code for the following rendered page is within the policy_fragment.kt file.
 A snippet of the new code with JetPack Compose is here below:
 
 ![image](https://github.com/hotellinawebmaster/SouvenirScoutJetPackCompose/assets/73776127/0439ce5f-7f8a-4680-9001-b3425bdf2b5d)
+
+The entire project I am working on is at 
+https://play.google.com/store/apps/details?id=com.hotellina.SouvenirScout 
+
+The portal exposing the same data is: 
+www.souvenirscout.com 
