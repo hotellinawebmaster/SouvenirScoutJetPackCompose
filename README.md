@@ -1,7 +1,7 @@
 # Re-Code transition examples, from XML to JetPack
 This is an example of how I coded the old Policy fragment from xml to JetPack Compose.
 
-The final output video showing the JetPack Policy page coded snippet is at: 
+The final video outcome showing the JetPack Policy page is at: 
 https://www.youtube.com/shorts/adaSud93GV4  
 
 The code for the following rendered page is within the fragment_policy_fragment.xml file. 
