@@ -5,7 +5,7 @@ The final output video showing the JetPack Policy coded snippet is at:
 https://www.youtube.com/shorts/adaSud93GV4  
 
 The code for the following rendered page is within the fragment_policy_fragment.xml file. 
-A snippet of the old fragment is here below:
+A snippet of the old XML fragment is here below:
 
 ![image](https://github.com/hotellinawebmaster/SouvenirScoutJetPackCompose/assets/73776127/07cd00e5-4c58-4894-adce-f55e2dad13c7)
 
